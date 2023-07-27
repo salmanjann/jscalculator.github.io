@@ -93,6 +93,10 @@ header {
         background-color: #56cbdb;
     }
 
+    a:hover {
+        color: var(--calcBody);
+    }
+
 }
 
 /* @media screen and (max-width:540px) {
@@ -318,5 +322,5 @@ a:hover {
 }
 
 a:active {
-    color: var(--mainText);
+    color: var(--calcBody);
 }
