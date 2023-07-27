@@ -1,8 +1,18 @@
+@font-face {
+    font-family: "Candara";
+    src: url("https://db.onlinewebfonts.com/t/e662339992c4abf5b43f537391bd3169.eot");
+    src: url("https://db.onlinewebfonts.com/t/e662339992c4abf5b43f537391bd3169.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/e662339992c4abf5b43f537391bd3169.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/e662339992c4abf5b43f537391bd3169.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/e662339992c4abf5b43f537391bd3169.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/e662339992c4abf5b43f537391bd3169.svg#Candara")format("svg");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'candara';
+    font-family: "Candara";
 }
 
 body {
@@ -34,6 +44,7 @@ body.dark {
 }
 
 body {
+    font-family: "Candara";
     background-color: var(--background-color);
     color: var(--calcBody);
     --calcHeight: 600px;
