@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+    <header>
+        <div class="Heading">
+            <h1>JavaScript Calculator</h1>
+            <div class="icons">
+                <a href="https://github.com/salmanjann/jscalculator.github.io.git" target="_blank" class="icon">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <button class="theme-toggle-button">
+                    <span class="toggle-knob"></span>
+                </button>
+                <a href="https://www.linkedin.com/in/salmanjan2574/" target="_blank" class="icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="mainBody">
+        <div class="calcBody">
+            <div class="screen">
+                <div class="outputText">
+                    <p class="blueText"><i class="fa-solid fa-equals"></i></p>
+                    <p class="result">0</p>
+                </div>
+                <div class="inputText">
+                    <p>_</p>
+                </div>
+            </div>
+            <div class="keys">
+                <div class="buttons blueKeys">
+                    <button onclick="printSalman()">SJ</button>
+                </div>
+                <div class="buttons blueKeys">
+                    <button onclick="clearAll()"> CE</button>
+
+                </div>
+                <div class="buttons blueKeys">
+                    <button onclick="clearSingleChar()"><i class="fa-solid fa-delete-left"></i></button>
+
+                </div>
+                <div class="buttons blueKeys">
+                    <button onclick="concatInput('/')"><i class="fa-solid fa-divide"></i></button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="concatInput('7')">7</button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="concatInput('8')">8</button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="concatInput('9')">9</button>
+
+                </div>
+                <div class="buttons blueKeys">
+                    <button onclick="concatInput('*')"><i class="fa-solid fa-xmark"></i></button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="concatInput('4')">4</button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="concatInput('5')">5</button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="concatInput('6')">6</button>
+
+                </div>
+                <div class="buttons plusKey blueKeys">
+                    <button onclick="concatInput('+')"><i class="fa-solid fa-plus"></i></button>
+
+                </div>
+                <div class="buttons blueKeys">
+                    <button onclick="concatInput('-')"><i class="fa-solid fa-minus"></i></button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="concatInput('1')">1</button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="concatInput('2')">2</button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="concatInput('3')">3</button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="concatInput('.')">.</button>
+
+                </div>
+                <div class="buttons">
+                    <button onclick="concatInput('0')">0</button>
+
+                </div>
+                <div class="buttons blueKeys">
+                    <button onclick="calcResult()"><i class="fa-solid fa-equals"></i></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
