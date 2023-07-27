@@ -85,6 +85,14 @@ header {
         --blueCharFont: 1.0rem;
     }
 
+    .buttons button:hover {
+        background-color: var(--buttonsColor);
+    }
+
+    .blueKeys button:hover {
+        background-color: #56cbdb;
+    }
+
 }
 
 /* @media screen and (max-width:540px) {
