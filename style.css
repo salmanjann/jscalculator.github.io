@@ -61,8 +61,8 @@ header {
 
 @media screen and (max-width:720px) {
     body {
-        --calcHeight: 500px;
-        --calcWidth: 250px;
+        --calcHeight: 530px;
+        --calcWidth: 270px;
         --fontSize: 1.5rem;
         --iconSize: 1.6rem;
         --toggleButtonW: 50px;
@@ -76,10 +76,10 @@ header {
 
 }
 
-@media screen and (max-width:540px) {
+/* @media screen and (max-width:540px) {
     body {
-        --calcHeight: 450px;
-        --calcWidth: 200px;
+        --calcHeight: 490px;
+        --calcWidth: 240px;
         --fontSize: 1.3rem;
         --iconSize: 1.4rem;
         --toggleButtonW: 40px;
@@ -90,12 +90,12 @@ header {
         --inputFont: 1.2rem;
         --blueCharFont: 0.9rem;
     }
-}
+} */
 
-@media screen and (max-width:420px) {
+/* @media screen and (max-width:420px) {
     body {
-        --calcHeight: 430px;
-        --calcWidth: 180px;
+        --calcHeight: 490px;
+        --calcWidth: 240px;
         --fontSize: 1.2rem;
         --toggleButtonW: 30px;
         --toggleButtonH: 15px;
@@ -105,7 +105,7 @@ header {
         --inputFont: 0.9rem;
         --blueCharFont: 0.8rem;
     }
-}
+} */
 
 h1 {
     font-size: var(--fontSize);
