@@ -125,7 +125,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding: 1.3%;
+    padding: 1rem;
     background-color: var(--calcBody);
     transition: var(--transitionDelay);
 
